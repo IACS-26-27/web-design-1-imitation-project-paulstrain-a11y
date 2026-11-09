@@ -5,4 +5,30 @@ width: 717.33px;
 height: 618px;
 background-color: #eaba36;
 }
+
+/* AI-generated code starts here — GitHub Copilot
+   Student prompt: "Put each letter in a span, rotate them, and put At and The on separate lines." */
+h1 .heading-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+h1 .heading-word-at,
+h1 .heading-word-the {
+  display: block;
+}
+
+h1 .heading-letter {
+  display: inline-block;
+}
+
+h1 .heading-letter:nth-child(odd) {
+  transform: rotate(-8deg);
+}
+
+h1 .heading-letter:nth-child(even) {
+  transform: rotate(8deg);
+}
+/* AI-generated code ends here */
+
 .graphic
