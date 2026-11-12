@@ -1,1 +1,44 @@
 /* CSS for your imitation here */
+body {
+  margin: 0;
+}
+
+main {
+  /* Image is 715 x 1095px */
+  width: 715px;
+  height: 1095px;
+  background-color: #eaba36;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+/* AI-generated code starts here — GitHub Copilot
+   Student prompt: "Put each letter in a span, rotate them, and put At and The on separate lines." */
+h1 .heading-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+h1 .heading-word-at,
+h1 .heading-word-the {
+  display: block;
+}
+
+h1 .heading-letter {
+  display: inline-block;
+}
+
+h1 .heading-letter:nth-child(odd) {
+  transform: rotate(-8deg);
+}
+
+h1 .heading-letter:nth-child(even) {
+  transform: rotate(8deg);
+}
+
+/* AI-generated code ends here */
+
+.graphic {
+  width: 100px;
+}
