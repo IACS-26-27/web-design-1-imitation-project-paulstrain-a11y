@@ -39,4 +39,6 @@ h1 .heading-letter:nth-child(even) {
 
 /* AI-generated code ends here */
 
-.graphic
+.graphic {
+  width: 100px;
+}
