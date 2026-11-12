@@ -1,9 +1,16 @@
 /* CSS for your imitation here */
+body {
+  margin: 0;
+}
+
 main {
-  /* Image is 717.33 x 618px */
-width: 717.33px;
-height: 618px;
-background-color: #eaba36;
+  /* Image is 715 x 1095px */
+  width: 715px;
+  height: 1095px;
+  background-color: #eaba36;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
 }
 
 /* AI-generated code starts here — GitHub Copilot
@@ -29,6 +36,7 @@ h1 .heading-letter:nth-child(odd) {
 h1 .heading-letter:nth-child(even) {
   transform: rotate(8deg);
 }
+
 /* AI-generated code ends here */
 
 .graphic
