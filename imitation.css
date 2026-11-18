@@ -52,7 +52,7 @@ h1 {
   padding: 40px 0 0 30px;
   font-size: 110px;
   font-weight: 900;
-  line-height: 0.95;
+  line-height: 0.08;
   color: #000;
   text-transform: uppercase;
 }
@@ -60,14 +60,6 @@ h1 {
 h1 {
   font-size: 95px;
   padding: 30px 0 0 30px;
-}
-
-h1 .heading-word-at {
-  margin-left: 40px;
-}
-
-h1 .heading-word-the {
-  margin-left: 180px;
 }
 
 h1 .heading-word-at {
