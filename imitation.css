@@ -13,32 +13,6 @@ main {
   overflow: hidden;
 }
 
-/* AI-generated code starts here — GitHub Copilot
-   Student prompt: "Put each letter in a span, rotate them, and put At and The on separate lines." */
-h1 .heading-word {
-  display: inline-block;
-  white-space: nowrap;
-}
-
-h1 .heading-word-at,
-h1 .heading-word-the {
-  display: block;
-}
-
-h1 .heading-letter {
-  display: inline-block;
-}
-
-h1 .heading-letter:nth-child(odd) {
-  transform: rotate(-8deg);
-}
-
-h1 .heading-letter:nth-child(even) {
-  transform: rotate(8deg);
-}
-
-/* AI-generated code ends here */
-
 .graphic {
   width: 100px;
 }
@@ -52,7 +26,7 @@ h1 {
   padding: 40px 0 0 30px;
   font-size: 110px;
   font-weight: 900;
-  line-height: 0.08;
+  line-height: 0.8;
   color: #000;
   text-transform: uppercase;
 }
@@ -63,14 +37,95 @@ h1 {
 }
 
 h1 .heading-word-at {
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 h1 .heading-word-the {
-  margin-left: 260px;
+  margin-left: 120px;
 }
 
 h1 .heading-word:last-child {
-  font-size: 130px;
-  margin-left: 20px;
+  font-size: 110px;
+  margin-left: 10px;
+
+  h1 .heading-word-at,
+  h1 .heading-word-the {
+    display: block;
+  }
+}
+
+h1 .heading-letter {
+
+  display: inline-block;
+
+}
+
+
+
+h1 .heading-letter:nth-child(odd) {
+
+  transform: rotate(-8deg);
+
+}
+
+
+
+h1 .heading-letter:nth-child(even) {
+
+  transform: rotate(8deg);
+
+}
+
+h1 .heading-word-at,
+
+h1 .heading-word-the,
+
+h1 .heading-word:last-child {
+
+  display: block;
+
+}
+
+h1 .heading-word-at,
+
+h1 .heading-word-the,
+
+h1 .heading-word:last-child {
+
+  display: block;
+
+}
+
+h1 .heading-word:first-child,
+
+h1 .heading-word:last-child {
+
+  display: block;
+
+}
+
+
+
+h1 .heading-word-at,
+
+h1 .heading-word-the {
+
+  display: inline-block;
+
+}
+
+
+
+h1 .heading-word-at {
+
+  margin-left: 40px;
+
+}
+
+
+
+h1 .heading-word-the {
+
+  margin-left: 10px;
+
 }
