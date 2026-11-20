@@ -29,12 +29,78 @@ h1 .heading-letter {
   display: inline-block;
 }
 
-h1 .heading-letter:nth-child(odd) {
+
+/* AI-generated code ends here */
+
+/* AI-generated code starts here — GitHub Copilot
+   Student prompt: "Allow each heading letter to have its own rotation." */
+
+h1 .heading-letter {
+  display: inline-block;
+}
+
+/* PANIC */
+.letter-p {
+  transform: rotate(-12deg);
+}
+
+.letter-a1 {
+  transform: rotate(6deg);
+}
+
+.letter-n {
+  transform: rotate(-4deg);
+}
+
+.letter-i1 {
+  transform: rotate(10deg);
+}
+
+.letter-c {
   transform: rotate(-8deg);
 }
 
-h1 .heading-letter:nth-child(even) {
+/* AT */
+.letter-a2 {
+  transform: rotate(-14deg);
+}
+
+.letter-t {
   transform: rotate(8deg);
+}
+
+/* THE */
+.letter-t2 {
+  transform: rotate(-7deg);
+}
+
+.letter-h {
+  transform: rotate(12deg);
+}
+
+.letter-e {
+  transform: rotate(-5deg);
+}
+
+/* DISCO */
+.letter-d {
+  transform: rotate(-10deg);
+}
+
+.letter-i2 {
+  transform: rotate(5deg);
+}
+
+.letter-s {
+  transform: rotate(-15deg);
+}
+
+.letter-c2 {
+  transform: rotate(7deg);
+}
+
+.letter-o {
+  transform: rotate(-6deg);
 }
 
 /* AI-generated code ends here */
@@ -52,7 +118,7 @@ h1 {
   padding: 40px 0 0 30px;
   font-size: 110px;
   font-weight: 900;
-  line-height: 0.08;
+  line-height: 0.78;
   color: #000;
   text-transform: uppercase;
 }
