@@ -140,3 +140,15 @@ h1 .heading-word:last-child {
   font-size: 130px;
   margin-left: 20px;
 }
+
+/* AI-generated code starts here — M365 Copilot
+   Student request: "Move the word Disco 1.5 inches to the right and make the letters D, I, S, C, and O smaller." */
+
+h1 .heading-word:last-child {
+  font-size: 110px;
+  /* reduced from 130px */
+  margin-left: 164px;
+  /* previous 20px + about 144px (1.5 inches) */
+}
+
+/* AI-generated code ends here */
