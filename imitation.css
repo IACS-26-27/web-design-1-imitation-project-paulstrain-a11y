@@ -152,3 +152,8 @@ h1 .heading-word:last-child {
 }
 
 /* AI-generated code ends here */
+.tv-head {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
