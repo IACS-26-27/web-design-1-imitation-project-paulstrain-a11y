@@ -9,6 +9,7 @@
     content: "Mobile";
     background-color: #c8787888;
   }
+
   /* End mobile label */
 }
 
@@ -21,6 +22,7 @@
     content: "Laptop";
     background-color: #45454588;
   }
+
   /* End laptop label */
 }
 
@@ -33,6 +35,7 @@
     content: "Wide";
     background-color: #00438888;
   }
+
   /* End widescreen label */
 }
 
